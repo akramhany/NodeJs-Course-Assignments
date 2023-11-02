@@ -1,0 +1,20 @@
+<%- include('includes/head.ejs') %>
+<link rel="stylesheet" href="style/form-styling.css">
+</head>
+
+<%- include('includes/header.ejs') %>
+
+</header>
+
+    <main class="main-container">
+        <form class="users-form" action="/admin" method="POST">
+            <div class="form-control">
+                <label for="User">Add User To the List</label>
+                <input type="text" name="User" id="User" placeholder="ex: User">
+            </div>
+            <button type="submit">Add User</button>
+        </form>
+    </main>
+    
+</body>
+</html>

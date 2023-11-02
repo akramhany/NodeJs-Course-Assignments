@@ -1,0 +1,12 @@
+.list-container {
+    font-size: 1.4rem;
+    padding: 20px;
+}
+
+.list-container ul {
+    list-style: none;
+}
+
+.list-container li {
+    color: #00695c;
+}

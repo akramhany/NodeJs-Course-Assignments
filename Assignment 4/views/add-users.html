@@ -1,0 +1,24 @@
+<%- include('includes/head.ejs') %>
+</head>
+<body>
+    <header>
+        <nav class="top-bar">
+            <ul>
+                <li><a href="/users">Users</a></li>
+                <li><a href="/admin">Add Users</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-container">
+        <form class="users-form" action="/admin" method="POST">
+            <div class="form-control">
+                <label for="User">Add User To the List</label>
+                <input type="text" name="User" id="User" placeholder="ex: User">
+            </div>
+            <button type="submit">Add User</button>
+        </form>       
+    </main>
+    
+</body>
+</html>
